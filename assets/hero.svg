@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="t">
+  <title id="t">Zeki Erman</title>
+  <style>
+    .name { font: 800 72px "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; letter-spacing: -2.5px; }
+    .tag { font: 500 19px ui-monospace, "SFMono-Regular", "Cascadia Code", Consolas, "Liberation Mono", monospace; fill: #8b949e; letter-spacing: 0.5px; }
+    .cell { fill: #9cc7ff; opacity: 0; animation: blink 6s infinite; }
+    .cur { fill: #e6edf3; animation: caret 1.1s steps(1) infinite; }
+    .sweep { animation: sweep 7s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 0; } 8% { opacity: 0.85; } 22% { opacity: 0; } }
+    @keyframes caret { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @keyframes sweep { 0% { transform: translateX(-420px); } 55%, 100% { transform: translateX(1100px); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10141b"/>
+      <stop offset="1" stop-color="#161b24"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#2b3340"/>
+    </pattern>
+    <clipPath id="nameclip">
+      <text x="64" y="122" class="name">Zeki Erman</text>
+    </clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="218" rx="20"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="998" height="218" rx="20" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <g clip-path="url(#card)">
+    <rect x="660" y="0" width="340" height="220" fill="url(#dots)"/>
+    <rect class="cell" x="720" y="40" width="18" height="18" rx="3" style="animation-delay:0s"/>
+    <rect class="cell" x="760" y="100" width="18" height="18" rx="3" style="animation-delay:0.5s"/>
+    <rect class="cell" x="840" y="60" width="18" height="18" rx="3" style="animation-delay:1.1s"/>
+    <rect class="cell" x="900" y="140" width="18" height="18" rx="3" style="animation-delay:1.7s"/>
+    <rect class="cell" x="960" y="100" width="18" height="18" rx="3" style="animation-delay:2.4s"/>
+    <rect class="cell" x="820" y="160" width="18" height="18" rx="3" style="animation-delay:3.0s"/>
+    <rect class="cell" x="940" y="40" width="18" height="18" rx="3" style="animation-delay:3.6s"/>
+    <rect class="cell" x="720" y="120" width="18" height="18" rx="3" style="animation-delay:4.3s"/>
+  </g>
+  <text x="64" y="122" class="name" fill="#e6edf3">Zeki Erman</text>
+  <g clip-path="url(#nameclip)">
+    <rect class="sweep" x="0" y="40" width="260" height="110" fill="url(#shine)" opacity="0.55"/>
+  </g>
+  <rect class="cur" x="476" y="72" width="16" height="56" rx="2"/>
+  <text x="66" y="166" class="tag">mobile apps · websites · tools for AI coding agents</text>
+</svg>
