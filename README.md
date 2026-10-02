@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-vibe.svg" width="100%" alt="Zeki Erman · Vibe coder since localhost:3000." />
+  <img src="assets/hero-lines.svg" width="100%" alt="Zeki Erman · Computer Engineering student · Building tools for AI coding agents" />
 </p>
 
 <table width="100%">
