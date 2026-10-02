@@ -1,10 +1,5 @@
 <p align="center">
-  <img src="assets/hero-name.svg" width="100%" alt="Zeki Erman" />
-</p>
-
-<p align="center">
-  Computer Engineering student building mobile apps, websites, and tools for AI coding agents.<br />
-  <em>Vibe coder since localhost:3000.</em>
+  <img src="assets/hero-vibe.svg" width="100%" alt="Zeki Erman · Vibe coder since localhost:3000." />
 </p>
 
 <table width="100%">
