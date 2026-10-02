@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Zeki Erman" />
+  <img src="assets/hero-name.svg" width="100%" alt="Zeki Erman" />
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
   <tr><td colspan="2"><strong>02 / FEATURED BUILD</strong></td></tr>
   <tr>
     <td width="74%" valign="top">
-      <h2><img src="assets/pandoo-logo.png" width="42" height="42" alt="" /> Pandoo</h2>
+      <h2><img src="assets/pandoo-logo-rounded.png" width="42" height="42" alt="" /> Pandoo</h2>
       <p><strong>Discover, scan, earn — for Konya's cafés and patisseries.</strong></p>
       <p>Pandoo brings local café discovery, events, and digital loyalty into one app. Explore cafés and activities such as film nights, acoustic evenings, board-game nights, and workshops. At the counter, scan the café's QR code to collect a digital stamp; the code rotates every 30 seconds to prevent screenshot reuse. Cafés can share campaigns and announcements, too.</p>
       <p>I co-founded Pandoo and built the mobile app with a friend using React Native, Expo, and Supabase. It is live on the App Store and Google Play.</p>
@@ -42,7 +42,7 @@
     <td colspan="2" align="center">
       <a href="https://apps.apple.com/tr/app/pandoo-ke%C5%9Ffet-okut-kazan/id6803645504"><img src="assets/app-store-official.svg" width="144" height="48" alt="Download Pandoo on the App Store" /></a>
       &nbsp;&nbsp;
-      <a href="https://play.google.com/store/apps/details?id=com.novantesoft.pandoo"><img src="assets/google-play-official.png" width="161" height="48" alt="Get Pandoo on Google Play" /></a>
+      <a href="https://play.google.com/store/apps/details?id=com.novantesoft.pandoo"><img src="assets/google-play-badge.svg" width="162" height="48" alt="Get Pandoo on Google Play" /></a>
     </td>
   </tr>
   <tr>
